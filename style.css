@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-color: aqua;
+  width: 100vw;
+  height: 813px;
+}
+.background-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100vw;
+  z-index: 0;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+.nav-items {
+  margin-left: 40px;
+  display: flex;
+  position: absolute;
+  top: 51px;
+  left: 240px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+}
+.lists {
+  list-style: none;
+  padding: 0px 15px;
+}
+.lists a {
+  text-decoration: none;
+  color: #fff;
+}
+.lists .active {
+  color: #e9bd8c;
+}
+.lists a:hover {
+  color: #e9bd8c;
+}
+.logo {
+  width: 87px;
+  height: 99px;
+  position: absolute;
+  top: 19px;
+  left: 68px;
+}
+
+.hero-content {
+  position: absolute;
+  top: 277px;
+  left: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-content p {
+  width: 100%;
+  text-align: left;
+  color: #e9bd8c;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+}
+.hero-content h2 {
+  color: #fff;
+  width: 100%;
+  text-align: left;
+  font-family: "Sansita Swashed", sans-serif;
+  font-weight: 400;
+  font-size: 74px;
+}
+
+.hero-content form {
+  width: 100%;
+  text-align: left;
+  margin-top: 90px;
+}
+.hero-content button {
+  background-color: #933c24;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  width: 194px;
+  height: 65px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+.hero-content a {
+  color: #e9bd8c;
+  text-decoration: none;
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+/* products */
+
+.products {
+  top: 250px;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  width: 100vw;
+  left: 20px;
+}
+.product-heading h2 {
+  font-size: 64px;
+  font-family: "Sansita Swashed", sans-serif;
+  font-weight: 600;
+  margin-bottom: 150px;
+  text-align: center;
+}
+.container img {
+  width: 360px;
+  height: 411px;
+
+  object-fit: cover;
+  position: relative;
+  border-radius: 8px;
+}
+.product-col {
+  position: relative;
+}
+.container .product-image {
+  width: 226px;
+  height: 223px;
+  position: absolute;
+  top: 20px;
+  left: 70px;
+}
+.price {
+  position: absolute;
+  display: flex;
+  top: 260px;
+  left: -5px;
+  width: 360px;
+  color: #fff;
+  justify-content: space-around;
+  align-items: center;
+}
+.price h3 {
+  margin-top: 0;
+}
+.price a {
+  margin-left: 100px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+.product-name {
+  position: absolute;
+  display: flex;
+  width: 360px;
+  top: 320px;
+  color: #fff;
+  justify-content: space-around;
+  align-items: center;
+}
+.product-name button {
+  width: 71px;
+  height: 49px;
+  background: #933c24;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+}
+.product-name h3 {
+  margin-bottom: 0;
+}
+
+.product-container {
+  margin-bottom: 20px;
+}
+
+/* Discount */
+.discount {
+  position: relative;
+}
+
+.discount-image {
+  position: absolute;
+  top: 400px;
+  height: 442px;
+}
+.discount-image img {
+  width: 100vw;
+}
+
+.discount-content {
+  position: absolute;
+  top: 520px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.discount-content h2 {
+  font-family: "Sansita Swashed", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 57.6px;
+  word-spacing: 10px;
+  color: #933c24;
+}
+.discount-content p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29.05px;
+  width: 30%;
+  color: #5d5d5d;
+  text-align: center;
+  padding: 30px 0px;
+}
+.discount-content button {
+  background-color: #933c24;
+  border: none;
+  color: #fff;
+  width: 202px;
+  height: 63px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+
+/* Explore More */
+.Explore {
+  position: relative;
+  top: 1050px;
+}
+.Explore-section {
+  position: absolute;
+  width: 100vw;
+}
+.Explore-heading h2 {
+  font-size: 64px;
+  font-family: "Sansita Swashed", sans-serif;
+  font-weight: 600;
+  margin-bottom: 90px;
+  text-align: center;
+}
+hr {
+  color: #d9d9d9;
+  border: 1px solid #d9d9d9;
+  width: 85vw;
+  margin: auto;
+}
+.Explore-container {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.explore-container {
+  margin-left: 140px;
+}
+.Explore-img img {
+  width: 360px;
+  height: 350px;
+}
+.Explore-items {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Explore-items a {
+  text-decoration: none;
+  color: #5d5d5d;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.1s ease-in-out;
+}
+.first-item {
+  border-bottom: 8px solid brown;
+}
+
+.Explore-items a:hover {
+  border-bottom: 8px solid brown;
+}
+
+/* About us */
+.About-us {
+  position: relative;
+  top: 2250px;
+}
+
+.about-us-image {
+  position: absolute;
+  height: 442px;
+}
+.about-us-image img {
+  width: 100vw;
+}
+
+.about-content {
+  position: absolute;
+  top: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-content h2 {
+  font-family: "Sansita Swashed", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 57.6px;
+  word-spacing: 10px;
+  color: #f5f5f5;
+}
+.about-content p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29.05px;
+  width: 30%;
+  color: #5d5d5d;
+  text-align: center;
+  padding: 30px 0px;
+}
+.about-content button {
+  background-color: #933c24;
+  border: none;
+  color: #fff;
+  width: 202px;
+  height: 63px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+
+/* Feature */
+.feature {
+  position: relative;
+}
+.Feature-section {
+  position: absolute;
+  width: 100vw;
+  top: 4800px;
+}
+.Feature-heading h2 {
+  font-size: 64px;
+  font-family: "Sansita Swashed", sans-serif;
+  font-weight: 600;
+  margin-bottom: 90px;
+  text-align: center;
+}
+.Feature-container {
+  margin-top: 150px;
+  margin-left: 140px;
+}
+.Feature-img img {
+  width: 360px;
+  height: 356px;
+}
+.feature-price {
+  width: 360px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* footer */
+.footer {
+  position: relative;
+  top: 3700px;
+}
+.footer-image {
+  position: absolute;
+  width: 100vw;
+}
+.footer-image img {
+  width: 100%;
+}
+.footer-logo img {
+  width: 114px;
+  height: 116.96px;
+  left: 80px;
+}
+.footer-head {
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  top: 40px;
+}
+.footer-head-content {
+  margin-top: 35px;
+  margin-right: 100px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.footer-head-content p,
+a {
+  padding: 0 20px;
+}
+.footer-head-content p {
+  color: #e9bd8c;
+  font-size: 24px;
+  font-weight: 600;
+}
+.footer hr {
+  position: absolute;
+  top: 200px;
+  width: 90%;
+  left: 70px;
+  border: 1px solid #e9bd8d33;
+}
+
+.footer-container {
+  position: absolute;
+  top: 280px;
+  color: #e9bd8c;
+}
+.footer-container h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 34.57px;
+  padding-bottom: 20px;
+}
+.footer-explore {
+  display: flex;
+  flex-direction: column;
+}
+.first-footer-col {
+  padding-left: 70px;
+}
+
+.footer-container p,
+a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.footer-container a {
+  padding-left: 0;
+}
+
+.footer-item-block {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 14px;
+  width: 100%;
+  text-wrap: nowrap;
+}
+.footer-item-block p {
+  color: #e9bd8c;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.footer-item-block h4 {
+  color: #f5f5f5;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.footer-item-block img {
+  width: 100px;
+  height: 67px;
+  padding-right: 23px;
+}
+.footer-copyright {
+  position: absolute;
+  color: #737373;
+  top: 650px;
+  display: flex;
+  width: 50%;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  left: 550px;
+}
+.footer-copyright p {
+  padding-left: 5px;
+}

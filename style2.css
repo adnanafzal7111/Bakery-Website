@@ -1,0 +1,12 @@
+.hero{
+    position: relative;
+}
+
+.nav-bar-custom{
+    padding-left: 100px;
+}
+.contianer-fluid-custom{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
